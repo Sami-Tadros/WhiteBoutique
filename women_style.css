@@ -1,0 +1,1807 @@
+.wrapper {
+
+        width: 100%;
+        max-width: 1920px;
+        margin:0 auto;
+
+}
+
+* {
+    box-sizing: border-box;
+    
+  }
+
+.slider {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 5px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slider {
+
+  direction: ltr;
+
+}
+
+
+@font-face {
+    
+        font-family: Tajawal ExtraBold;
+        src: url(../font/Tajawal-ExtraBold.ttf);
+
+}
+
+@font-face {
+
+        font-family: Tajawal Regular;
+        src: url(../font/Tajawal-Regular.ttf);
+
+}
+  
+@font-face {
+
+        font-family: Tajawal Medium;
+        src: url(../font/Tajawal-Medium.ttf);
+
+}
+
+  
+h1,h2,h3,h4,h5,h6 {
+  
+        font-family: 'Tajawal ExtraBold';
+}
+  
+body {
+  
+        font-family: 'Tajawal Regular';
+}
+  
+  
+p {
+  
+        font-family: 'Tajawal Medium';
+}
+
+ 
+  
+/* Start Header */
+
+/* Start Top Header */
+  
+.container-top-header {
+  
+        margin: 0 auto;
+        max-width: 1200px;
+  
+}
+  
+.top-header {
+
+
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background-color: #707170;
+  
+}
+  
+.top-header .icon-text-top-header {}
+  
+.top-header .icon-text-top-header ul {
+  
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        margin-bottom: 0;
+
+}
+  
+.top-header .icon-text-top-header ul li{
+    
+        border-right: 1px solid rgba(255, 255, 255,0.5);
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+}
+  
+.top-header .icon-text-top-header ul li a{
+    
+        color: white;
+        text-decoration: none;
+  
+}
+  
+.top-header .icon-text-top-header ul li a i {
+    
+        padding-left: 9px;
+        padding-right: 15px;
+
+}
+
+.top-header .icon-text-top-header ul li a:hover {
+
+        color: #c8aca2;
+        
+}
+
+  
+.top-header .icon-text-top-header ul li:last-child {
+  
+        border-left: 1px solid rgba(255, 255, 255,0.5);
+  
+}
+  
+/* End Top Header */
+
+/* Start Bg Navbar */
+
+.bg-navbar {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        background-color: #c8aca2;
+    }
+    
+    .bg-navbar .header-content {
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .col2-top-header .img-logo{
+        float: right;
+    }
+    .bg-navbar .col2-top-header .img-logo img{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .bg-navbar .col2-top-header nav.main-menu{
+    
+    }
+    
+    .bg-navbar .col2-top-header .list-item-white-boutique ul li {
+        
+        list-style: none;
+        display: inline-block;
+        margin: 0 9px;
+        color: white;
+        padding: 15px;
+        font-family: 'Cairo', sans-serif;
+    
+    
+    }
+    
+    .bg-navbar .col2-top-header   {
+    
+      display: flex;
+    }
+    
+    .bg-navbar .col2-top-header .span-women  {
+    
+        width: 20%;
+        max-width: 100%;
+        float: right;
+        font-family: 'Cairo', sans-serif;
+        background: white;
+        text-align: center;
+        padding: 20.4px;
+        color: white;
+    
+    }
+    
+    .bg-navbar .col2-top-header .navbar-search  {
+    
+        display: flex;
+        padding: 20px 10px;
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .bg-navbar .col2-top-header .navbar-search input  {
+        
+        border: none;
+        border-radius: 28px;
+        font-family: 'Tajawal Regular';        
+        width: 100%;
+        display: flex;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+		outline: none;
+
+    }
+    
+    .bg-navbar .col2-top-header .navbar-search  .icon-search-navbar {
+      
+        font-size: 18px;
+        position: absolute;
+        left: 25px;
+        top: 29px;
+
+    }
+    
+    
+    .bg-navbar .col2-top-header .navbar-icon  {
+    
+        color: white;
+        display: flex;
+     
+    }
+    
+    .bg-navbar .col2-top-header .navbar-icon a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .bg-navbar .col2-top-header .navbar-icon a:hover {
+        color: gray;
+    }
+    
+    .bg-navbar .col2-top-header .navbar-icon  .icon-shopping-navbar a{
+    
+        margin: 25px 6px;
+        font-size: 30px;
+        display: flex;
+    }
+    
+    .bg-navbar .col2-top-header .navbar-icon  .icon-user-navbar a  {
+    
+        margin: 25px 6px;
+        font-size: 30px;
+        display: flex;
+    
+    }
+    
+    .bg-navbar .col2-top-header .navbar-icon .icon-heart-navbar a {
+    
+        margin: 25px 6px;
+        font-size: 30px;
+        display: flex;
+    }
+    
+    .header-content
+    {
+    width: 100%;
+    height: auto;
+    display: flex;
+        
+    }
+    .header-content .img-logo img {
+    
+     float: left;
+            width: 80%;
+    }
+    
+     .cover-header .col-xs-12 {
+        padding: 0;
+    }
+
+    .bg-navbar .header-content .nav-class .main-menu #menu ul {
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .header-content .nav-class .main-menu ul li img {
+        width: 100px;
+        margin-top: 10px;
+    }
+    
+    .header-content .nav-class {}
+    
+    .bg-navbar .header-content .nav-class .main-menu #menu {
+        color: #fff;
+        padding: 0;
+        margin: 0 auto;
+    }
+      
+    .bg-navbar .header-content .nav-class .main-menu  #menu ul,
+    .bg-navbar .header-content .nav-class .main-menu  #menu li {
+        margin: 0 0;
+        padding: 0 0;
+        list-style: none
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu ul {
+        height: 35px
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu li {
+        float: right;
+        display: inline;
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu a {
+    
+        display: block;
+        line-height: 35px;
+        padding: 23px 13px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Tajawal ExtraBold';
+        font-size: 17px;
+    }
+    
+      
+    .bg-navbar .header-content .nav-class .main-menu  #menu li:hover > a,
+    .bg-navbar .header-content .nav-class .main-menu #menu li a:hover {
+        background: #fff;
+        color: #000;
+     
+      }
+      .bg-navbar .header-content .nav-class .main-menu #menu ul {
+
+        display: flex;
+        justify-content: center;
+
+      }
+      .bg-navbar .header-content .nav-class .main-menu #menu ul.menus li {
+        display: block;
+        text-transform: none;
+
+    }
+      
+    .bg-navbar .header-content .nav-class .main-menu  #menu li:hover ul.menus {
+        
+        display: flex;
+        margin: 0 auto;
+        padding: 0 20px;
+        
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu a.home {
+        background: #c00;
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu a.prett {
+        color: white;
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu  #menu a.prett::after {
+        width: 0;
+        height: 0;
+        border-width: 6px 5px;
+        border-style: solid;
+        border-color: #eee transparent transparent transparent;
+        position: absolute;
+        top: 15px;
+        right: 9px
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu #menu ul.menus a:hover {
+        background: whitesmoke;
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu #menu ul.menus .submenu {
+        display: none;
+        position: absolute;
+        left: 180px;
+        background: #111;
+        top: 0;
+        width: 180px;
+      }
+      
+      .bg-navbar .header-content .nav-class .main-menu #menu ul.menus .submenu li {
+    
+        background: #111;
+    
+    }
+      
+    .bg-navbar .header-content .nav-class .main-menu #menu ul.menus .has-submenu:hover .submenu {
+    
+        display: block;
+    
+    }
+    
+    .bg-navbar .header-content .nav-class .main-menu #menu .menus a {
+
+        margin: 0px;
+        font-size: 15px;
+        
+    }
+    
+    .bg-navbar .header-content .nav-class .main-menu #menu ul.menus {
+        
+        height: auto;
+        width: 267.5%;
+        background: white;
+        position: absolute;
+        z-index: 1;
+        right: calc(-15vw - 40px);
+        display: none;
+        box-shadow: 0 15px 42px -27px black;
+
+    }
+    
+    .bg-navbar .header-content .nav-class .main-menu #menu ul.menus li a{
+    
+        font-family: 'Tajawal Medium';
+        color:#0c123a;
+    }
+
+
+
+    .bg-navbar .header-content img {
+       
+        width: 23%;
+        padding: 6px;
+    }
+    
+
+    
+/* End Bg Navbar */
+
+
+/* Start Bg Navbar Two */
+
+.bg-navbar2 {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: #c8aba2;
+
+}
+
+    .bg-navbar2 {
+
+        display:none;
+      }
+
+      .bg-navbar2 img {
+
+        width: 23%;
+        padding: 10px 0 ;
+      }
+    
+    .bg-navbar2 .header-menu {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+    
+    
+    
+    /* End Bg Navbar Two */
+          
+
+/* Start Cover Header */
+
+.cover-header {
+
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: inline-block;
+
+}
+
+.cover-header img {
+
+        max-width: 100%;
+
+}
+
+/* End Cover Header */
+
+/* End Header */
+
+/* Start Section Number One */
+
+.container-section-number-one {
+
+        margin: 0 auto;
+        max-width: 1200px;
+}
+      
+.section-number-one {
+        
+            width: 100%;
+            max-width:100% ;
+            height: auto;
+            display: inline-block;
+            padding-top: 90px;
+}
+
+     
+.section-number-one .img2-section-number-one {
+        
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+}
+        
+.section-number-one .img2-section-number-one img {
+        
+            max-width: 100%;
+        
+}
+        
+.section-number-one .img2-section-number-one  .text2-section-number-one {
+        
+        
+            position: absolute;
+            top: 17%;
+            left: 10%;
+            color: black;
+            width: 100%;
+            height: auto;
+            text-align: left;
+        
+}
+
+.section-number-one .img2-section-number-one  .text2-section-number-one h4 {}
+.section-number-one .img2-section-number-one  .text2-section-number-one h1 {
+
+        font-size: 33px;
+
+}
+.section-number-one .img2-section-number-one  .text2-section-number-one h5 {
+
+                font-size: 12px;
+                line-height: 32px;
+
+}
+
+
+              
+.section-number-one .img1-section-number-one {
+        
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+}
+        
+.section-number-one .img1-section-number-one img {
+        
+            max-width: 100%;
+        
+        
+}
+        
+.section-number-one .img1-section-number-one .text1-section-number-one {
+        
+            position: absolute;
+            top: 17%;
+            right: 10%;
+            color: black;
+            height: auto;
+}
+            
+.section-number-one .img1-section-number-one .text1-section-number-one h4 {
+        
+        
+            line-height: 21px;
+        
+        
+}
+        
+.section-number-one .img1-section-number-one .text1-section-number-one h1 {
+        
+            line-height: 38px;
+        
+        
+        
+}
+        
+        
+.section-number-one .img1-section-number-one .text1-section-number-one h5 {
+        
+        
+        
+            line-height: 129px;
+            font-size: 12px;
+        
+}
+ 
+/* End Section Number One */
+
+/* Start Clothes List One Section */
+
+.container-clothes-list-one-section {
+
+        margin: 0 auto;     
+        max-width: 1200px;
+}
+
+.clothes-list-one-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 60px;
+        padding-top: 20px;
+}
+
+
+    
+.clothes-list-one-section .img1-clothes-cover-section {
+    
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    
+}
+    
+.clothes-list-one-section .img1-clothes-cover-section img {
+    
+        max-width: 100%;
+}
+      
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span {
+    
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    
+}
+
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span span {
+    
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 0 8px;
+    border-radius: 16px 0;
+    font-size: 10px;
+}
+
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+        
+        color: black;
+        margin:0 0 5px;
+    
+}
+    
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+        
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: inline;
+        text-decoration: line-through;
+        float: right;
+        padding-left: 6px;
+    
+}
+    
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section .h1-clothes h1 {
+      
+        font-size: 14px;
+        margin: 0;
+        color: black;
+        display: inline;
+        padding-left: 6px;
+        text-decoration: none;
+}
+    
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section h1 {
+        
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: inline;
+        text-decoration: line-through;
+        float: right;
+        padding-left: 6px;
+}
+      
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section .h1-clothes h1 {
+    
+        font-size: 14px;
+        margin: 0;
+        color: black;
+        display: inline;
+        padding-left: 6px;
+        text-decoration: none;
+}  
+    
+.clothes-list-one-section .img2-clothes-cover-section {
+    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+    
+.clothes-list-one-section .img2-clothes-cover-section img {
+    
+    max-width: 100%;
+}
+    
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section .new-span {
+    
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    
+}
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section  p {
+    
+       margin: 0 0 5px;
+}
+    
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section .new-span span {
+    
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 0 8px;
+    border-radius: 16px 0;
+    font-size: 10px;
+}
+    
+.clothes-list-one-section .img3-clothes-cover-section {
+    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+    
+.clothes-list-one-section .img3-clothes-cover-section img {
+    
+    max-width: 100%;
+}
+     
+.clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section .new-span {
+    
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    
+}
+
+.clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section .new-span span {
+    
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 0 8px;
+    border-radius: 16px 0;
+    font-size: 10px;
+
+} 
+    
+.clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section p {
+        
+        color: black;
+        margin: 0 0 5px;
+}
+     
+.clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section h1 {
+       
+        font-size: 14px;
+        margin: 0;
+        color: black;
+}
+    
+.clothes-list-one-section  .img4-clothes-cover-section  {
+    
+        width: 100%;
+        background-color: #c8aba2;
+        padding-bottom: 100px;
+        max-width: 100%;
+        display: inline-block;
+    
+}
+    
+.clothes-list-one-section  .img4-clothes-cover-section .text4-clothes-cover-section {
+    
+        text-align: center;
+        padding-top: 93px;
+        display: inline-block;
+        color: white;
+        width: 100%;
+ 
+}
+    
+.clothes-list-one-section  .img4-clothes-cover-section .text4-clothes-cover-section  h5{
+       
+        margin: 64px 0 0;
+    
+}
+    
+.clothes-list-one-section  .img4-clothes-cover-section .text4-clothes-cover-section  h1{
+    
+        font-size: 33px;
+    
+}
+    
+.clothes-list-one-section  .img4-clothes-cover-section .text4-clothes-cover-section  hr{
+    
+        max-width: 23%;
+        border: 0;
+        margin-block-start: 5px;
+        border-top: 1px solid white;
+}
+    
+.clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section hr {
+
+    margin-top: 20px;
+	margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section hr {
+
+        margin-top: 20px;
+		margin-bottom: 15px;
+        border: 0;
+        border-top: 1px solid black;
+}
+    
+.clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section hr {
+
+        margin-top: 20px;
+	margin-bottom: 15px;
+        border: 0;
+        border-top: 1px solid black;
+}
+    
+	
+.clothes-list-one-section .img4-clothes-cover-section .text4-clothes-cover-section h6 {
+        
+        padding-right: 10px;
+	
+}
+	
+/* End Clothes List One Section */
+
+
+
+/* Start Cover Clothes Section */
+
+.cover-clothes-section {
+        
+                display: inline-block;
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                padding: 0 20px;
+        
+}
+
+.cover-clothes-section .col-md-6 {
+
+                padding-right: 8px;
+                padding-left: 8px;
+}
+        
+.cover-clothes-section .img1-clothes-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                position: relative;
+}
+           
+.cover-clothes-section .img1-clothes-section img {
+        
+                max-width: 100%;
+        
+}
+        
+.cover-clothes-section .img1-clothes-section  .text1-clothes-section {
+        
+                color: black;
+                position: absolute;
+                left: 19%;
+                top: 38%;
+                max-width: 100%;
+}
+        
+.cover-clothes-section .img1-clothes-section  .text1-clothes-section h1 {
+            
+                font-size: 70px;
+        
+}
+ 
+.cover-clothes-section .img2-clothes-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                position: relative;
+
+}
+            
+.cover-clothes-section .img2-clothes-section img {
+        
+                max-width: 100%;
+        
+}
+        
+.cover-clothes-section .img2-clothes-section  .text2-clothes-section {
+        
+                color: black;
+                position: absolute;
+                left: 19%;
+                top: 29%;
+                max-width: 100%;
+                text-align: center;
+
+}
+        
+.cover-clothes-section .img2-clothes-section  .text2-clothes-section h1 {
+        
+                font-size: 66px;
+        
+}
+
+/* End Cover Clothes Section */
+
+/* Start Newly Arrived Section */
+
+.span-p-newly-arrived {
+
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    
+}
+    
+.span-p-newly-arrived span{
+    
+        font-size: 37px;
+        font-weight: bold;
+        color: #bb6965;
+    
+}
+      
+.span-p-newly-arrived p{
+    
+        font-size: 20px;
+        color: #a0a0a0;
+        line-height: 60px;
+        margin: 0;
+    
+}
+
+/* End Newly Arrived Section */
+
+
+/* Start Clothes List Two Section */
+
+
+.container-clothes-list-two-section {
+
+                margin: 0 auto;   
+                max-width: 1200px;
+
+}
+        
+.clothes-list-two-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                padding-top: 20px;
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                padding-bottom: 50px;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                position: relative;
+}
+        
+.clothes-list-two-section  .row-clothes-list1-two-section .img1-clothes-cover-section img { 
+        
+                max-width: 100%;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span {
+            
+                position: absolute;
+                top: -2px;
+                right: 5%;
+            
+}
+        
+.clothes-list-two-section  .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span span {
+            
+                background-color: black;
+                color: white;
+                font-weight: 700;
+                padding: 0 8px;
+                border-radius: 16px 0;
+                font-size: 10px;
+
+}
+        
+.clothes-list-two-section  .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+                
+                color: black;
+                font-weight: bold;
+				margin: 0 0 5px;
+            
+}
+            
+.clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+                
+                font-size: 14px;
+                margin: 0;
+                color: #9f9d9d;
+                display: inline;
+                text-decoration: line-through;
+                float: right;
+                padding-left: 6px;
+            
+}
+            
+.clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section .h1-clothes h1 {
+              
+                font-size: 14px;
+                margin: 0;
+                color: black;
+                display: inline;
+                padding-left: 6px;
+                text-decoration: none;
+
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                position: relative;
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section img  {
+        
+                max-width: 100%;
+           
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section{
+            
+                position: relative;
+}
+
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon{
+        
+                position: absolute;
+                top: 0;
+                right: 5%;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon a i:hover{
+        
+                color: black;
+
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon i.fas.fa-random{
+        
+                padding-right: 155px;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon i{
+        
+                padding-left: 2px;
+                color: #585858;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon span{
+
+                background-color: black;
+                color: white;
+                font-weight: 700;
+                padding: 0 8px;
+                border-radius: 16px 0;
+                font-size: 10px;
+        
+}
+        
+.clothes-list-two-section  .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section p {
+                
+                color: black;
+                font-weight: bold;
+				margin: 0 0 5px;
+            
+}
+            
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section h1 {
+                
+                font-size: 14px;
+                margin: 0;
+                color: #9f9d9d;
+                display: inline;
+                text-decoration: line-through;
+                float: right;
+                padding-left: 6px;
+            
+}
+            
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section .h1-clothes h1 {
+              
+                font-size: 14px;
+                margin: 0;
+                color: black;
+                display: inline;
+                padding-left: 6px;
+                text-decoration: none;
+}
+        
+.clothes-list-two-section .row-clothes-list2-two-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+        
+}
+
+.clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section {
+        
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                position: relative;
+}
+         
+.clothes-list-two-section  .row-clothes-list2-two-section .img1-clothes-cover-section img { 
+        
+                max-width: 100%;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span {
+        
+                position: absolute;
+                top: 2%;
+                right: 5%;
+        
+}
+        
+.clothes-list-two-section  .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section .new-span span {
+        
+                background-color: black;
+                color: white;
+                font-weight: 700;
+                padding: 0 8px;
+                border-radius: 16px 0;
+                font-size: 10px;
+
+}
+         
+.clothes-list-two-section  .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+            
+                color: black;
+                font-weight: bold;
+				margin: 0 0 5px;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+            
+                font-size: 14px;
+                margin: 0;
+                color: #9f9d9d;
+                display: inline;
+                text-decoration: line-through;
+                float: right;
+                padding-left: 6px;
+        
+}
+        
+.clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section .h1-clothes h1 {
+          
+                font-size: 14px;
+                margin: 0;
+                color: black;
+                display: inline;
+                padding-left: 6px;
+                text-decoration: none;
+
+}
+
+.clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section hr {
+
+                margin-top: 20px;
+				margin-bottom: 10px;
+                border: 0;
+                border-top: 1px solid black;
+
+}
+
+.clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section hr {
+
+                margin-top: 20px;
+				margin-bottom: 10px;
+                border: 0;
+                border-top: 1px solid black;
+
+}
+
+.clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section hr {
+
+                margin-top: 20px;
+				margin-bottom: 10px;
+                border: 0;
+                border-top: 1px solid black;
+
+}
+
+
+/* End Clothes List Two Section */
+
+
+/* Start Cover Section Number3 */
+
+.cover-section-number3 {
+        
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: inline-block;
+        padding-top: 80px;
+}
+    
+.cover-section-number3 .img-cover-section-number3 {
+    
+            background-image: url(../img/cover.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            padding-bottom: 15%;
+}
+    
+.cover-section-number3 .text-cover-section-number3 {
+        width: 100%;
+        text-align: center;
+        font-size: 29px;
+        padding-top: 16%;
+}
+    
+    
+.cover-section-number3 .text-cover-section-number3 .p1-five {
+    
+            margin: 0;
+            margin-bottom: 1px;
+            color: black;
+
+}    
+
+
+
+
+
+/* End Cover Section Number3 */
+
+
+/* Start Final Section */
+
+.container-end-section {
+
+    margin: 0 auto;
+    max-width: 1200px;
+  
+  }
+  
+  .end-section  {
+  
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+  }
+  
+  .end-section .img1-end-section {
+  
+      text-align: left;
+  }
+  .end-section .img1-end-section img{
+  
+    width: 70%;
+  
+  }
+  
+  .end-section .img2-end-section img{
+  
+    width: 100%;
+  
+  }
+  
+  .end-section .img2-end-section {
+  
+  text-align: right;
+  }
+  .end-section .img2-end-section {
+  
+    position: absolute;
+      right: 0;
+      top: -26vw;
+      z-index: -1;
+  }
+  
+  .end-section .text-end-section {
+  
+    margin: 6vw 0 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 2vw;
+  }
+  
+  .end-section .text-end-section p{
+      
+    font-size: 1.8vw;
+      font-weight: bold;
+      color: black;
+      font-family: 'Tajawal Black';
+      padding-right: 6px;
+  }
+  
+  .end-section .text-end-section h1{
+    color: black;
+    padding-right: 6px;
+    font-size: 49px;
+  }
+  
+  .end-section .text-end-section h2{
+    color: black;
+    padding-right: 6px;
+    font-size: 49px;
+  }
+  
+  
+  .end-section .text-end-section span a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+      line-height: 34px;
+    
+  }
+  
+  .end-section .text-end-section span a:hover{
+      
+      color: gray;
+      text-decoration: none;
+  
+   
+    
+  }
+  
+  .end-section .text-end-section hr{
+    
+      margin: 5px 0 0;
+      width: 11%;
+      border: 0;
+      border-top: 1px solid black;
+  
+    }
+  
+
+     
+/* End Final Section  */
+
+
+/* Start Our Trends */
+
+
+
+.trend-section {
+    
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    
+    }
+    .trend-section .our-trends-section {
+    
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    
+    
+    
+    .trend-section .our-trends-section img  {
+    
+    
+        max-width: 100%;
+        padding: 0 3px 0 5px;
+    
+    
+    }
+    
+    
+    
+    .trend-section .h1-span-trends-section {
+    
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+    
+    
+    .trend-section .h1-span-trends-section span {
+    
+        font-size: 21px;
+        color: black;
+    }
+    
+
+/* End Our Trends */
+
+/* Start Clients Company Section */
+
+.container-client-company {
+
+        margin: 0 auto;
+        padding: 0 100px;
+        max-width: 1920px;
+    
+    }
+    
+    
+.client-company-section {
+    
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 90px;
+        padding-bottom: 50px;
+    
+}
+    
+.client-company-section .logo-company-one {
+    
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    
+}
+    
+.client-company-section .logo-company-one img{
+    
+        width: 13%;
+        padding: 0 5px;
+    
+    
+}
+    
+.client-company-section .logo-company-one .glyphicon {
+    
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        padding: 0 12px;
+        font-size: 20px;
+    
+}
+ 
+/* End Clients Company Section */
+
+/* Start NewsLetter Section */
+
+.newsletter-section {
+
+        max-width:100% ;
+        width: 100%;
+        height: auto;
+        padding: 90px 0 30px;
+    }
+    
+    .newsletter-section .icon-text-newsletter-section {
+    
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: flex;
+    }
+    
+    .newsletter-section .icon-text-newsletter-section .icon-newsletter-section { 
+    
+        color: #c8aba2;
+        font-size: 56px;
+        line-height: 1;
+    }
+    
+    .newsletter-section .icon-text-newsletter-section .text-newsletter-section { 
+        
+        color: black;
+        font-weight: bold;
+        font-size: 34px;
+        padding-right: 15px
+    }
+    
+    .newsletter-section .btn-input-newsletter-section {
+    
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: flex;
+    }
+    
+    .newsletter-section .btn-input-newsletter-section input {
+        
+        width: 100%;
+        display: flex;
+        border-radius: 0 28px 28px 0;
+        border: 1px solid;
+        padding: 0 24px 0 0;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Tajawal ExtraBold';
+		outline: none;
+    
+    }
+    
+    .newsletter-section .btn-input-newsletter-section button {
+    
+        display: flex;
+        float: left;
+        padding: 10.5px 39px;
+        border: none;
+        border-radius: 28px 0px 0px 28px;
+        background: #c8aba2;
+        color: white;
+        font-size: 20px;
+    }
+    
+    
+    .container-newsletter {
+    
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+/* End NewsLetter Section */
+
+/* Start Footer */
+
+footer {
+
+        background-image: linear-gradient(white, #ded7d7);
+        border-top: 1px solid;
+    
+    }
+    
+    .logo-footer {
+    
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-bottom: 10px;
+    
+    }
+    
+    .logo-footer img {
+    
+        max-width: 20%;
+    
+    }
+    
+    .container-footer-menu {
+    
+        margin: 0 auto;
+        max-width: 1200px;
+    
+    }
+    
+    .footer-menu {
+    
+        padding-bottom: 100px;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .help-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .footer-menu .help-menu h4 {
+    
+      padding-left: 84px;
+    
+    }
+    
+    .footer-menu .help-menu ul {
+       
+        list-style: none;
+        padding:0;
+       
+    }
+    
+    .footer-menu .help-menu ul li {
+        
+        
+        line-height: 30px;
+        font-weight: 700;
+    
+    }
+    
+    .footer-menu .help-menu ul li  a{
+    
+     color: black;
+    
+    }
+    
+    .footer-menu  .myinformation-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-menu .myinformation-menu h4 {
+    
+        padding-left: 16px;
+    
+    }
+    .footer-menu .myinformation-menu ul { 
+    
+        list-style: none;
+        padding:0;
+    
+    }
+    .footer-menu .myinformation-menu ul li {
+        line-height: 30px;
+        font-weight: 700;}
+    .footer-menu .myinformation-menu ul li  a {color: black;}
+    .footer-menu .link-menu h4 {
+    
+        padding-left: 50px;
+    }
+    .footer-menu .link-menu ul { 
+    
+        list-style: none;
+        padding: 0;
+    
+    }
+    .footer-menu .link-menu ul li {
+        line-height: 30px;
+        font-weight: 700;}
+    .footer-menu .link-menu ul li  a {color: black;}
+    .footer-menu .information-menu h4 {}
+    .footer-menu .information-menu ul { 
+    
+        list-style: none;
+        padding: 0 0 0 73px;
+    
+    }
+    .footer-menu .information-menu ul li {
+        line-height: 30px;
+        font-weight: 700;}
+    .footer-menu .information-menu ul li  a {color: black;}
+    
+    
+    .footer-menu .link-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .footer-menu .information-menu {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-menu  ul li a:hover {
+
+        text-decoration: none;
+        color: #c8aba2;
+    }
+    
+/* End Top & Menu Footer */
+
+/* Start Bottom Footer */
+
+.container-footer {
+
+        margin: 0 auto;
+        max-width: 1200px;
+}
+
+
+.bottom-footer {
+
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background-color: #707170;
+
+}
+
+.bottom-footer .icon-bottom-footer ul {
+    
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        margin-bottom: 0;
+
+}
+
+.bottom-footer .icon-bottom-footer ul li {
+    
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+}
+
+.bottom-footer .icon-bottom-footer {}
+.bottom-footer .icon-bottom-footer ul li a { color: #b8b8b8; }
+.bottom-footer .icon-bottom-footer ul li a:hover { color: white; }
+.bottom-footer .icon-bottom-footer ul li a i { font-size: 20px; }
+
+.bottom-footer .text-bottom-footer span {
+
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+
+}
+
+
+/* End Bottom Footer */
+
+/* End Footer */
+  

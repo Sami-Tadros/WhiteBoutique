@@ -1,0 +1,690 @@
+@media (max-width: 1025px) {
+	
+	.row {
+		margin:0;
+	}
+    
+}
+
+@media (max-width: 320px) {
+
+    /* Start Footer */
+	
+    .slider {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+	.row {
+		margin:0;
+	}
+
+    .end-section .text-end-section h1 {
+        color: black;
+        padding-right: 6px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .end-section .text-end-section h2 {
+        color: black;
+        padding-right: 6px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .end-section .text-end-section span a {
+        color: black;
+        font-weight: bold;
+        font-size: 7px;
+        line-height: 0;
+    }
+
+    .end-section .text-end-section hr {
+        margin: 0 0;
+        width: 27%;
+        border: 0;
+        border-top: 1px solid black;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .new-span-icon i.fas.fa-random {
+        float: none;
+    }
+
+    .cover-clothes-section .img1-clothes-section .text1-clothes-section h1 {
+        font-size: 20px;
+    }
+    
+    .cover-clothes-section .img2-clothes-section .text2-clothes-section h1 {
+        font-size: 20px;
+    }
+
+    .cover-clothes-section .img2-clothes-section .text2-clothes-section {
+        color: black;
+        position: absolute;
+        left: 26%;
+        top: 29%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .cover-clothes-section .img1-clothes-section .text1-clothes-section {
+        color: black;
+        position: absolute;
+        left: 21%;
+        top: 34%;
+        max-width: 100%;
+    }
+
+    .section-number-one .img2-section-number-one .text2-section-number-one h4 {
+        font-size: 10px;
+    }
+
+    .section-number-one .img2-section-number-one .text2-section-number-one h1 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .section-number-one .img2-section-number-one .text2-section-number-one h5 {
+        font-size: 6px;
+        line-height: 0;
+    }
+
+    .section-number-one .img1-section-number-one .text1-section-number-one h4 {
+        line-height: 0;
+        font-size: 10px;
+    }
+
+    .section-number-one .img1-section-number-one .text1-section-number-one h1 {
+        line-height: 17px;
+        font-size: 17px;
+    }
+
+    .section-number-one .img1-section-number-one .text1-section-number-one h5 {
+        line-height: 35px;
+        font-size: 7px;
+    }
+
+    .bottom-footer .icon-bottom-footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .bottom-footer .text-bottom-footer span {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 9px;
+        color: white;
+    }
+
+    .footer-menu .information-menu ul {
+        list-style: none;
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start: 0;
+    }
+
+    .footer-menu .information-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu .link-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu .link-menu h4 {
+        padding-left: 0;
+    }
+
+    .footer-menu .myinformation-menu h4 {
+        padding-left: 0;
+    }
+
+    .footer-menu .myinformation-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .help-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-menu .help-menu h4 {
+        padding-left: 0;
+    }
+
+    .newsletter-section .btn-input-newsletter-section input {
+        width: 100%;
+        display: flex;
+        border-radius: 0 28px 28px 0;
+        border: 1px solid;
+        padding: 0 24px 0 0;
+        font-size: 8px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Tajawal ExtraBold';
+        outline: none;
+    }
+
+    .newsletter-section .icon-text-newsletter-section {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .newsletter-section .icon-text-newsletter-section .icon-newsletter-section {
+        color: #c8aba2;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    .newsletter-section .icon-text-newsletter-section .text-newsletter-section {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        padding-right: 15px;
+    }
+
+    .trend-section .h1-span-trends-section h1 {
+
+        font-size: 17px;
+
+    }
+
+    .trend-section .h1-span-trends-section span {
+        font-size: 13px;
+        color: black;
+    }
+
+    .trend-section .our-trends-section img {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .cover-section-number3 .text-cover-section-number3 {
+        width: 100%;
+        text-align: center;
+        font-size: 6px;
+        padding-top: 16%;
+    }
+
+    .span-p-newly-arrived p {
+        font-size: 10px;
+        color: #a0a0a0;
+        line-height: 60px;
+        margin: 0;
+    }
+
+    .span-p-newly-arrived span {
+        font-size: 22px;
+        font-weight: bold;
+        color: #bb6965;
+    }
+
+
+    .clothes-list-one-section .img2-clothes-cover-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .clothes-list-one-section .img3-clothes-cover-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .clothes-list-one-section .img4-clothes-cover-section {
+        width: 100%;
+        background-color: #c8aba2;
+        padding-bottom: 100px;
+        max-width: 100%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .clothes-list-one-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .top-header .icon-text-top-header ul li a i {
+        
+        padding-left: 3px;
+        padding-right: 2px;
+
+    }
+
+    .top-header .icon-text-top-header ul li {
+        border-right: 1px solid rgba(255, 255, 255,0.5);
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .top-header .icon-text-top-header ul {
+        list-style: none;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .top-header .icon-text-top-header {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .cover-section-number3 {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .span-p-newly-arrived {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .clothes-list-two-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .cover-section-number3 .img-cover-section-number3 {
+        background-image: url(../img/cover.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 20%;
+    }
+
+    .section-number-one {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .section-number-one .img2-section-number-one {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    
+    .cover-clothes-section .img1-clothes-section {
+
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 15px;
+
+    }
+
+
+    .logo-footer img {
+        max-width: 50%;
+    }
+
+
+    .clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+        color: black;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: flex;
+        text-decoration: line-through;
+        float: none;
+        padding-left: 6px;
+        justify-content: center;
+    }
+
+    .clothes-list-one-section .img1-clothes-cover-section .text1-clothes-cover-section .h1-clothes {
+
+        text-align: center;
+
+    }
+
+    .clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section p {
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: flex;
+        text-decoration: line-through;
+        float: none;
+        padding-left: 6px;
+        justify-content: center;
+    }
+
+    .clothes-list-one-section .img2-clothes-cover-section .text2-clothes-cover-section .h1-clothes {
+
+        text-align: center;
+
+    }
+
+    .clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section p {
+        color: black;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .clothes-list-one-section .img3-clothes-cover-section .text3-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: black;
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+        color: black;
+        font-weight: bold;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: flex;
+        text-decoration: line-through;
+        float: none;
+        padding-left: 6px;
+        justify-content: center;
+    }
+
+    .img1-clothes-cover-section .text1-clothes-cover-section .h1-clothes {
+
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: flex;
+        text-decoration: line-through;
+        float: none;
+        padding-left: 6px;
+        justify-content: center;
+    }
+
+
+    .img3-clothes-cover-section .text3-clothes-cover-section .h1-clothes {
+
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list1-two-section .img3-clothes-cover-section .text3-clothes-cover-section p {
+        color: black;
+        font-weight: bold;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section h1 {
+        font-size: 14px;
+        margin: 0;
+        color: #9f9d9d;
+        display: flex;
+        text-decoration: line-through;
+        float: none;
+        padding-left: 6px;
+        justify-content: center;
+    }
+
+    .clothes-list-two-section .row-clothes-list2-two-section .img1-clothes-cover-section .text1-clothes-cover-section p {
+        color: black;
+        font-weight: bold;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+
+    .cover-clothes-section {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        padding: 0 8px;
+    }
+
+
+
+
+}
+
+@media (max-width: 1160px) {
+    
+
+    .bg-navbar2 {
+  
+        display: block;
+        text-align: left;
+        
+    }
+  
+    .bg-navbar {
+  
+      display: none;
+    }
+  
+    input {
+  
+      display: none;
+    }
+  
+    .abs {
+  
+        position: absolute;
+        top: 55px;
+        right: 50px;
+     
+    }
+  
+    .fa-bars {
+  
+      font-size: 30px;
+      color: white;
+      transform: scaleX(1.4);
+    }
+  
+  
+  
+  .show-on-click {
+  
+    display: none;
+  }
+  
+    #burger:checked +  .show-on-click {
+  
+      display: block;
+  
+  
+    }
+  
+  
+    /* Start burger Menu*/
+    
+    .show-on-click .main-div{
+      
+      color: white;
+      
+    }
+  
+    .show-on-click .main-div:hover{
+      
+      color: gray;
+      
+    }
+  
+  
+    .show-on-click .main-div ul.sub-div {
+      list-style: none;
+      padding-inline-start: 0;
+    }
+  
+    .show-on-click .main-div ul.sub-div li {
+      
+      
+      text-align: center;
+      padding-top: 10px;
+  
+      
+    }
+  
+    .show-on-click .main-div ul.sub-div li a{
+      
+      color: white;
+      text-decoration: none;
+    }
+  
+    .show-on-click .main-div ul.sub-div li a:hover{
+      
+      color: gray;
+      
+    }
+  
+  
+    .sub-div{
+  
+      display: none;
+    }
+  
+    #women:checked + .sub-div{
+      
+      display: block;
+    }
+  
+    label {
+  
+      font-size: 25px ;
+      display: block;
+      text-align: right;
+      
+      
+    }
+  
+  .main-div label {
+  
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #80808047;;
+  }
+  
+  
+    .icon-search-navbar2 a{
+  
+      color: white;
+      font-size: 25px;
+      text-decoration: none;
+    }
+  
+    .icon-search-navbar2 {
+  
+      text-align: center;
+      padding-top: 15px;
+    }
+  
+    .icon-search-navbar2 a i{
+  
+      padding-right: 10px;
+      padding-left: 10px;
+  
+  }
+  
+    .icon-search-navbar2 a:hover{
+  
+    color: gray;
+  
+    }
+  
+    /* End burger Menu*/
+  
+   
+    
+  }
+
+
